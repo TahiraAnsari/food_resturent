@@ -1,4 +1,4 @@
-import { LogInIcon, LucideShoppingBag, Search, ShoppingBag, User } from "lucide-react";
+import { Search } from "lucide-react";
 import Image from "next/image";
 
 export default function Header() {

@@ -1,4 +1,3 @@
-import Client from "@/app/Resturant/Clients/page";
 import Image from "next/image";
 
 export default function StarterMenu() {

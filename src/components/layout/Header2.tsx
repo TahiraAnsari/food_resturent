@@ -1,4 +1,4 @@
-import { LogInIcon, LucideShoppingBag, Search, ShoppingBag, User } from "lucide-react";
+import { ShoppingBag, User } from "lucide-react";
 
 export default function Header2() {
   return (

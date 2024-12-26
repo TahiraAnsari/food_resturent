@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { GitCompareArrowsIcon, MessageSquare, MessageSquareMore, PlayCircleIcon, ThumbsUp } from "lucide-react";
+import { GitCompareArrowsIcon, MessageSquareMore, ThumbsUp } from "lucide-react";
 import Image from "next/image";
 export default function Blog(){
     return(
