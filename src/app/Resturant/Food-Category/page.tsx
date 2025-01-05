@@ -8,8 +8,7 @@ export default function FoodCategory(){
                     <div className="text-[25px] mb-3">
                         <span className="text-orange-500">Ch</span>oose Food Item
                     </div>
-
-                    {/* Images in a row for larger screens, column for mobile */}
+                    
                     <div className="flex flex-wrap gap-2 justify-center">
                         <div className="w-[300px] h-[300px] sm:w-[200px] sm:h-[200px]">
                             <Image

@@ -11,16 +11,18 @@ export default function Footer(){
                                 <span className="text-orange-500">St</span>ill You need our Support?
                             </h1>
                             <p className="text-[10px] sm:text-[12px] text-gray-400">
-                                Don't wait, make a smart & logical quote here. It's pretty easy.
+                                Don&apos;t wait, make a smart & logical quote here. It&apos;s pretty easy.
                             </p>
                         </div>
+            
                         <div className="flex">
-                            <div className="w-full sm:w-[250px] h-[40px] bg-orange-400 rounded-md text-white flex justify-between items-center">
-                                <p className="px-3 text-[10px]">Enter Your Email</p>
-                                <div className="bg-white w-[80px] h-[40px] text-orange-400 rounded-sm text-[10px] flex items-center justify-center">
-                                    Subscribe Now
-                                </div>
-                            </div>
+                        <input 
+                         type="text" 
+                         placeholder="Enter Your Email" 
+                         className="px-4 py-2 sm:p-3 text-white bg-orange-400 text-[7px] sm:text-[10px] rounded-tl-sm rounded-bl-sm sm:w-[320px]"
+                        />
+                        <button className="w-[65px] h-[28px] sm:w-[100px] sm:h-[40px] bg-white text-[7px] sm:text-[10px] rounded-tr-sm rounded-br-sm text-orange-400 hover:bg-black hover:border hover:border-orange-400 hover:text-orange-400 font-bold px-1">Subscribe Now</button>
+                        </div>
                         </div>
                     </div>
                     <hr className="border-orange-400 my-8" />
@@ -127,7 +129,6 @@ export default function Footer(){
                             </div>
                         </div>
                     </div>
-                </div>
                 <div className="w-screen bg-gray-600 text-white py-4 flex flex-wrap sm:flex-nowrap justify-center sm:justify-between items-center px-4">
                         <p className="text-[10px] sm:text-[12px]">
                             Copyright @ 2022 by Tahira. All Rights Reserved.

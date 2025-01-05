@@ -16,6 +16,8 @@ export default function Testmonials(){
                                <Image 
                                 src="/images/person.jpg"
                                 alt="Profile"
+                                width={100}
+                                height={100}
                                 className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full shadow-md"
                                />
                             </div>
