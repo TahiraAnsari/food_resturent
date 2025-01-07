@@ -1,4 +1,4 @@
-import { ShoppingBag, User } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 export default function Header2() {
   return (
@@ -14,18 +14,34 @@ export default function Header2() {
               <Link href="/"><span className="mt-1">Home</span></Link>
               <span className="w-1 h-1 bg-slate-400 rounded-full "></span>
             </div>
-            <Link href="/Menu/"><span>Menu</span></Link>
-            <Link href="/Blogs/blog-list/"><span>Blog</span></Link>
-            <Link href="/"><span>Pages</span></Link>
-            <Link href="/"><span>About</span></Link>
-            <Link href="/Shop/"><span>Shop</span></Link>
+            <Link href="/Menu"><span>Menu</span></Link>
+            <Link href="/Blogs/blog-list"><span>Blog</span></Link>
+            <Link href="/404-Page"><span>Pages</span></Link>
+            <Link href="/About-us"><span>About</span></Link>
+            <Link href="/Shop"><span>Shop</span></Link>
             <Link href="/"><span>Contact</span></Link>
           </div>
 
           {/* Search and Shopping Bag */}
           <div className="flex gap-4 items-center mt-4 md:mt-0">
-           <a href="/Shop/shopping-cart"> <ShoppingBag className="w-5 sm:w-6 text-white cursor-pointer" /></a>
-            <a href="/signup"><User className="w-5 sm:w-6 text-white cursor-pointer"/></a>
+          <div className="flex cursor-pointer gap-5">
+            <Link href="/Shop/shopping-cart">
+              <Image
+                src={"/FigmaImages/img104.png"}
+                alt="Image"
+                width={20}
+                height={20}
+
+              /></Link>
+            <Link href="/Log-Sign/login">
+              <Image
+                src={"/FigmaImages/img105.png"}
+                alt="Image"
+                width={20}
+                height={20}
+              />
+            </Link>
+            </div>
           </div>
         </div>
       </div>

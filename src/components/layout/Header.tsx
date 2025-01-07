@@ -17,10 +17,10 @@ export default function Header() {
               <span className="w-1 h-1 bg-slate-400 rounded-full "></span>
             </div>
             <Link href="/Menu/"><span>Menu</span></Link>
-            <Link href="/Blogs/blog-list/"><span>Blog</span></Link>
-            <Link href="/"><span>Pages</span></Link>
-            <Link href="/"><span>About</span></Link>
-            <Link href="/Shop/"><span>Shop</span></Link>
+            <Link href="/Blogs/blog-list"><span>Blog</span></Link>
+            <Link href="/404-Page"><span>Pages</span></Link>
+            <Link href="/About-us"><span>About</span></Link>
+            <Link href="/Shop"><span>Shop</span></Link>
             <Link href="/"><span>Contact</span></Link>
           </div>
 
@@ -30,18 +30,27 @@ export default function Header() {
               <p className="text-xs sm:text-sm text-white flex-grow">search...</p>
               <Search className="w-4 sm:w-5 text-white cursor-pointer" />
             </div>
-            <Image 
-            src={"/FigmaImages/img104.png"}
-            alt="Image"
-            width={20}
-            height={20}
-            />
-            <Image 
-            src={"/FigmaImages/img105.png"}
-            alt="Image"
-            width={20}
-            height={20}
-            />
+            <div className="flex cursor-pointer gap-5">
+            <Link href="/Shop/shopping-cart">
+              <Image
+                src={"/FigmaImages/img104.png"}
+                alt="Image"
+                width={20}
+                height={20}
+
+              /></Link>
+            <Link href="/Log-Sign/login">
+              <Image
+                src={"/FigmaImages/img105.png"}
+                alt="Image"
+                width={20}
+                height={20}
+              />
+            </Link>
+            </div>
+         
+
+
           </div>
         </div>
       </div>

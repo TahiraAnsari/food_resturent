@@ -32,9 +32,9 @@ export default function ShoppingCart(){
                     <p>Total</p>
                     <p>Remove</p>
                    </div>
-                   <div className="w-screen h-[50px] sm:h-[100px] my-2 flex px-2 items-center text-black text-[11px] border shadow-md mt-2">
+                   <div className="w-screen h-[50px] sm:h-[100px] my-2 flex justify-between px-2 items-center text-black text-[11px] border shadow-md mt-2">
                     <div className="flex gap-1">
-                        <div className="w-[40px] h-[40px] sm:w-[70px]">
+                        <div className="w-[40px] h-[40px]">
                             <Image 
                             src={"/FigmaImages/img42.png"}
                             alt="picture"
@@ -61,7 +61,7 @@ export default function ShoppingCart(){
                         <TrashIcon className="w-[15px] hover:text-orange-400 cursor-pointer"/>
                     </div>
                    </div>
-                   <div className="w-screen h-[50px]  my-2 flex px-1 items-center text-black text-[11px] border shadow-md mt-5">
+                   <div className="w-screen h-[50px]  my-2 flex justify-between px-1 items-center text-black text-[11px] border shadow-md mt-5">
                     <div className="flex gap-1">
                         <div className="w-[40px] h-[40px]">
                             <Image 
@@ -91,7 +91,7 @@ export default function ShoppingCart(){
                     </div>
                    </div>
 
-                   <div className="w-screen h-[50px]  my-2 flex px-1 items-center text-black text-[11px] border shadow-md mt-5">
+                   <div className="w-screen h-[50px]  my-2 flex justify-between px-1 items-center text-black text-[11px] border shadow-md mt-5">
                     <div className="flex gap-1">
                         <div className="w-[40px] h-[40px]">
                             <Image 
@@ -121,7 +121,7 @@ export default function ShoppingCart(){
                     </div>
                    </div>
 
-                   <div className="w-screen h-[50px] my-2 flex px-1 items-center text-black text-[11px] border shadow-md mt-5">
+                   <div className="w-screen h-[50px] my-2 flex justify-between px-1 items-center text-black text-[11px] border shadow-md mt-5">
                     <div className="flex gap-1">
                         <div className="w-[40px] h-[40px]">
                             <Image 
@@ -151,7 +151,7 @@ export default function ShoppingCart(){
                     </div>
                    </div>
 
-                   <div className="w-screen h-[50px]  my-2 flex px-1 items-center text-black text-[11px] border shadow-md mt-5">
+                   <div className="w-screen h-[50px]  my-2 flex justify-between px-1 items-center text-black text-[11px] border shadow-md mt-5">
                     <div className="flex gap-1">
                         <div className="w-[40px] h-[40px]">
                             <Image 
