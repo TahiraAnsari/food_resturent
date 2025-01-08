@@ -24,7 +24,7 @@ export default function AboutUs() {
                     </div>
                 </div>
             </div>
-            <div className="w-screen h-[3500px] bg-white">
+            <div className="w-screen h-[3900px] bg-white">
                 <div className="text-black space-y-3 flex flex-col sm:flex-row sm:items-center pt-12">
                     <div className="flex gap-5 w-[500px] h-[550px] p-2">
                         <div className="w-[220px] h-[400px]">
