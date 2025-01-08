@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import Image from "next/image";
 
 export default function Testmonials(){
     return(
@@ -12,11 +13,13 @@ export default function Testmonials(){
                         <div className="relative w-full max-w-sm sm:max-w-md h-auto bg-white rounded-lg shadow-lg p-6">
                             {/* Image - Partially inside and outside */}
                             <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
-                                <img
-                                    src="/images/person.jpg"
-                                    alt="Profile"
-                                    className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full shadow-md"
-                                />
+                               <Image 
+                                src="/images/person.jpg"
+                                alt="Profile"
+                                width={100}
+                                height={100}
+                                className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full shadow-md"
+                               />
                             </div>
 
                             {/* Card Content */}

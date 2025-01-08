@@ -1,5 +1,4 @@
-import { Button } from "@/components/ui/button";
-import { ArrowBigDown, ArrowBigDownDash, ArrowDown, ArrowDown01Icon, ArrowDownFromLine, ArrowDownIcon, ArrowDownNarrowWideIcon, ArrowDownToDotIcon, Check, CircleArrowDownIcon, Clock1, Clock10Icon, CornerLeftUpIcon, Facebook, FacebookIcon, FolderClockIcon, GitBranchPlus, GitCommitHorizontal, GitCompareArrows, GitGraph, GithubIcon, InstagramIcon, Linkedin, LinkedinIcon, LucideArrowDown, LucideNetwork, MessageCircleMoreIcon, MessageSquare, MessageSquareCode, MessageSquareDashed, MessageSquareDiffIcon, MessageSquareDot, MessageSquareMore, Network, NetworkIcon, Pickaxe, PlayCircleIcon, Search, Share, ShoppingBag, Star, ThumbsUp, Twitch, Twitter, User, User2Icon, UserCircle, UserX, WindArrowDown } from "lucide-react";
+
 import Image from "next/image";
 export default function FoodCategory(){
     return(
@@ -9,8 +8,7 @@ export default function FoodCategory(){
                     <div className="text-[25px] mb-3">
                         <span className="text-orange-500">Ch</span>oose Food Item
                     </div>
-
-                    {/* Images in a row for larger screens, column for mobile */}
+                    
                     <div className="flex flex-wrap gap-2 justify-center">
                         <div className="w-[300px] h-[300px] sm:w-[200px] sm:h-[200px]">
                             <Image

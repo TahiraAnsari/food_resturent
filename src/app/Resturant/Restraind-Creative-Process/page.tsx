@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { GitCompareArrows, MessageSquareMore, PlayCircleIcon, ThumbsUp } from "lucide-react";
-import Image from "next/image";
+import {PlayCircleIcon } from "lucide-react";
 export default function RestrainedCreativeProcess(){
     return(
         <>

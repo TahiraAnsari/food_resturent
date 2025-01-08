@@ -4,8 +4,8 @@ import Image from "next/image";
 export default function StarterMenu() {
     return (
         <>
-            <div className="w-screen h-[4450px] sm:h-[2300px] bg-white px-1">
-                <div className="h-[1650px] sm:h-[830px] space-y-5">
+            <div className="w-screen h-[3650px] sm:h-[2450px] bg-white px-1">
+                <div className="h-[1650px] sm:h-[930px] space-y-5">
                 <div className="px-2 sm:px-2 py-5 sm:py-10  h-[750px] sm:h-[400px] sm:w-[700px] my-2">
                     <div className="flex w-[380px] sm:w-[840px] h-[330px] sm:h-[350px] content-center p-2 flex-col sm:flex-row justify-around">
                         <div className="w-[360px] h-[390px] sm:w-[290px] sm:h-[400px]">
@@ -109,93 +109,7 @@ export default function StarterMenu() {
                 </div>
                 </div>
 
-                <div className=" w-full h-auto p-1 relative md:flex-col sm:flex-col mt-12">
-                    <div className="relative w-full h-auto flex flex-col sm:flex-row lg:flex-col justify-evenly items-center">
-                        <div className="relative mb-5 lg:mb-0 content-center inset-0 bg-black bg-opacity-85">
-                            <Image
-                                src={"/images/f1.jpg"}
-                                alt="Food"
-                                width={150}
-                                height={150}
-                                className="h-[220px] w-auto object-cover opacity-25"
-                            />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-5">
-                                <Image
-                                    src={"/images/Wchef.png"}
-                                    alt="Chefs"
-                                    width={50}
-                                    height={50}
-                                    className="mb-3"
-                                />
-                                <p className="text-white text-center font-bold text-[13px] mb-1">Professional Chef</p>
-                                <p className="text-white text-center font-bold text-[25px]">420</p>
-                            </div>
-                        </div>
-
-                        <div className="relative mb-5 lg:mb-0 content-center inset-0 bg-black bg-opacity-85">
-                            <Image
-                                src={"/images/f6.jpg"}
-                                alt="Food"
-                                width={150}
-                                height={150}
-                                className="h-[220px] w-auto object-cover opacity-25"
-                            />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-5">
-                                <Image
-                                    src={"/images/WBurger.png"}
-                                    alt="Burger"
-                                    width={50}
-                                    height={50}
-                                    className="mb-3"
-                                />
-                                <p className="text-white text-center font-bold text-[13px] mb-1">Items of Food</p>
-                                <p className="text-white text-center font-bold text-[25px]">320</p>
-                            </div>
-                        </div>
-
-                        <div className="relative mb-5 lg:mb-0 content-center inset-0 bg-black bg-opacity-85">
-                            <Image
-                                src={"/images/f2.jpg"}
-                                alt="Food"
-                                width={150}
-                                height={150}
-                                className="h-[220px] w-auto object-cover opacity-25"
-                            />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-5">
-                                <Image
-                                    src={"/images/Wfork.png"}
-                                    alt="Fork"
-                                    width={50}
-                                    height={50}
-                                    className="mb-3"
-                                />
-                                <p className="text-white text-center font-bold text-[13px] mb-1">Years of Experienced</p>
-                                <p className="text-white text-center font-bold text-[25px]">30+</p>
-                            </div>
-                        </div>
-
-                        <div className="relative mb-5 lg:mb-0 content-center inset-0 bg-black bg-opacity-85">
-                            <Image
-                                src={"/images/f5.jpg"}
-                                alt="Food"
-                                width={150}
-                                height={150}
-                                className="h-[220px] w-auto object-cover opacity-25"
-                            />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-5">
-                                <Image
-                                    src={"/images/Wpizza.png"}
-                                    alt="Pizza"
-                                    width={50}
-                                    height={50}
-                                    className="mb-3"
-                                />
-                                <p className="text-white text-center font-bold text-[13px] mb-1">Happy Customer</p>
-                                <p className="text-white text-center font-bold text-[25px]">220</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              <Client />
 
                 <div className="px-2 sm:px-2 py-5 sm:py-10  h-[740px] sm:h-[400px] sm:w-[700px] my-2">
                     <div className="flex w-[380px] sm:w-[840px] h-[330px] sm:h-[350px] content-center p-2 flex-col sm:flex-row justify-around">
@@ -352,7 +266,6 @@ export default function StarterMenu() {
                             />
                         </div>
                     </div>
-                    <div></div>
                 </div>
             </div>
         </>

@@ -1,5 +1,6 @@
-import { LogInIcon, LucideShoppingBag, Search, ShoppingBag, User } from "lucide-react";
+import { Search } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -12,15 +13,15 @@ export default function Header() {
           {/* Navigation Links */}
           <div className="flex gap-4 text-sm sm:text-base text-white items-center">
             <div className="flex flex-col items-center ">
-              <a href="/"><span className="mt-1">Home</span></a>
+              <Link href="/"><span className="mt-1">Home</span></Link>
               <span className="w-1 h-1 bg-slate-400 rounded-full "></span>
             </div>
-           <a href="/Menu/"> <span>Menu</span></a>
-            <span>Blog</span>
-            <span>Pages</span>
-            <span>About</span>
-            <a href="/Shop/"><span>Shop</span></a>
-            <span>Contact</span>
+            <Link href="/Menu/"><span>Menu</span></Link>
+            <Link href="/Blogs/blog-list"><span>Blog</span></Link>
+            <Link href="/404-Page"><span>Pages</span></Link>
+            <Link href="/About-us"><span>About</span></Link>
+            <Link href="/Shop"><span>Shop</span></Link>
+            <Link href="/"><span>Contact</span></Link>
           </div>
 
           {/* Search and Shopping Bag */}
@@ -29,18 +30,27 @@ export default function Header() {
               <p className="text-xs sm:text-sm text-white flex-grow">search...</p>
               <Search className="w-4 sm:w-5 text-white cursor-pointer" />
             </div>
-            <Image 
-            src={"/FigmaImages/img104.png"}
-            alt="Image"
-            width={20}
-            height={20}
-            />
-            <Image 
-            src={"/FigmaImages/img105.png"}
-            alt="Image"
-            width={20}
-            height={20}
-            />
+            <div className="flex cursor-pointer gap-5">
+            <Link href="/Shop/shopping-cart">
+              <Image
+                src={"/FigmaImages/img104.png"}
+                alt="Image"
+                width={20}
+                height={20}
+
+              /></Link>
+            <Link href="/Log-Sign/login">
+              <Image
+                src={"/FigmaImages/img105.png"}
+                alt="Image"
+                width={20}
+                height={20}
+              />
+            </Link>
+            </div>
+         
+
+
           </div>
         </div>
       </div>

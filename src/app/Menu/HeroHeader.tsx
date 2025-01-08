@@ -1,4 +1,3 @@
-import { AlignLeftIcon, MoveLeft, MoveRightIcon } from "lucide-react";
 import Image from "next/image";
 
 export default function HeroHeader() {
